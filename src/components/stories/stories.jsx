@@ -26,7 +26,7 @@ const Stories = () => {
                   comments
                 </p>
                 <div className="cardBtn">
-                  <a href={url} target="_blank">
+                  <a href={url} target="#">
                     Read More
                   </a>
                   <a href="#" onClick={() => removePost(objectID)}>

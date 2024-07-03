@@ -5,7 +5,7 @@ const Search = () => {
   const { query, searchPost } = useGlobalContext();
   return (
     <>
-      <h1>News</h1>
+      <h1>Tech News</h1>
       <form onSubmit={(e) => e.preventDefault()}>
         <div>
           <input

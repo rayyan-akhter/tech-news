@@ -66,7 +66,7 @@ const AppProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    fetchApiData(`${api}query=${state.query}&page=${state.page}`);
+    fetchApiData(`${api}query=${state.query.toLowerCase()}&page=${state.page}`);
   }, [state.query,state.page]);
 
   return (

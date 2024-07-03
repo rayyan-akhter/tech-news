@@ -29,7 +29,7 @@ const Stories = () => {
                   <a href={url} target="#">
                     Read More
                   </a>
-                  <a href="#" onClick={() => removePost(objectID)}>
+                  <a href="#section" onClick={() => removePost(objectID)}>
                     Remove
                   </a>
                 </div>

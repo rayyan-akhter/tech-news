@@ -8,7 +8,7 @@ const Stories = () => {
   if (isLoading) {
     return (
       <>
-        <h2>Loading....</h2>
+        <h2 className="storiesDiv">Loading....</h2>
       </>
     );
   }
